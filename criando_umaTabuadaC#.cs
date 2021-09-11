@@ -15,7 +15,7 @@ static void Main(string[]args){
   Console.WriteLine("_______________________________");
       Console.WriteLine("         #TABUADA#     ");
       
-      // Inpremssâo da casa de 2,3 e 4//
+      // Impressão da casa de 2,3 e 4//
       
   Console.WriteLine("_______________________________");
   Console.Write("2x1 = {0} |", numero * 1);
