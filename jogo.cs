@@ -29,15 +29,14 @@ namespace CSharp_Shell
        ConsoleColor.Yellow;
        Console.BackgroundColor =
        ConsoleColor.Blue;
-       Console.WriteLine("						DESEJA JOGAR?
-");
+       Console.WriteLine("DESEJA JOGAR?");
        
        
        Console.BackgroundColor =
        ConsoleColor.Red;
-       Console.Write("							sim			");Console.WriteLine("Não
-");
+       Console.Write("	sim	");Console.WriteLine("Não");
        Console.ResetColor();
+
        Console.WriteLine("-------------------------------");
        Console.Write("Resposta:");
       
@@ -55,22 +54,14 @@ namespace CSharp_Shell
        ConsoleColor.Cyan;
        Console.ForegroundColor =
        ConsoleColor.DarkRed;
-       Console.WriteLine("
-
-BEM VINDO AO JOGO RESPONDE AÍ!
-
-");
+       Console.WriteLine("BEM VINDO AO JOGO RESPONDE AÍ!");
        fases:
        Console.ResetColor();
-       Console.WriteLine("Escolha a fase:
-");
+       Console.WriteLine("Escolha a fase:");
        
        Console.ForegroundColor =
        ConsoleColor.Cyan;
-       Console.WriteLine("			fase1-fase2-	fase3
-			fase4-fase5
-
-");
+       Console.WriteLine("fase1-fase2-	fase3fase4-fase5");
        
        Console.ResetColor();
        Console.WriteLine("Digite a fase que escolheu:");
