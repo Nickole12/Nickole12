@@ -30,10 +30,7 @@ namespace Calculadora_magica
 			    
 			    Console.ForegroundColor =
 			    ConsoleColor.Yellow;
-			    Console.WriteLine("(A)para adição
-(S)subtração
-(M)multiplicação
-(D)Divisão.");
+			    Console.WriteLine("(A)para adição(S)subtração(M)multiplicação(D)Divisão.");
 			    Console.ResetColor();
 			    Console.ForegroundColor =
 			    ConsoleColor.Cyan;
